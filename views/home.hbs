@@ -1,0 +1,9 @@
+<h1 class="text-center my-5">Agregue sus URL 👇</h1>
+
+{{> FormAcortar}}
+
+{{#each urls }}
+    {{> Card item=this}}
+{{/each}}
+
+<footer class="text-center">Click en "Copiar" y pega en una pestaña nueva su <b>URL acortada</b></footer>

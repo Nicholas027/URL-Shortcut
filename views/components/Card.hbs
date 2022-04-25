@@ -1,0 +1,12 @@
+<article class="card mb-2">
+  <div class="card-body">
+    <p>{{item.origin}}</p>
+    <p>{{item.shortURL}}</p>
+    <button
+      class="btn btn-primary"
+      data-short="{{item.shortURL}}"
+    >Copiar</button>
+    <a href="/editar/{{item._id}}" class="btn btn-warning">Editar</a>
+    <a href="/eliminar/{{item._id}}" class="btn btn-danger">Eliminar</a>
+  </div>
+</article>
